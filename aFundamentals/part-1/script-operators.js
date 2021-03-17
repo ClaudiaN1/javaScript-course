@@ -26,3 +26,11 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
+
+let z, y;
+z = y = 25 - 10 - 5;   // right-to-left -> z = y = 10; 10 = y; y = z; z = 10;
+console.log(z, y);
+
+const averageAge = ageJonas + ageSarah / 2;              // output: 55.5
+const averageAgeGrouping = (ageJonas + ageSarah) / 2;    // output: 32.5
+console.log(ageJonas, ageSarah, averageAge, averageAgeGrouping);
