@@ -44,3 +44,27 @@ const birthYear = 1991;
 //var is function-scoped
 var job = 'programmer';
 job = 'teacher';
+
+
+// Strings
+const lastName = 'Jonas';
+const job1 = 'teacher';
+const birthYear1 = 1991;
+const year1 = 2037;
+
+const jonas = "I'm " + lastName + ', a ' + (year1 - birthYear1) + ' years old ' + job1 + '!';
+console.log(jonas);
+
+// Template literals
+const jonasNew = `I'm ${lastName}, a ${year1 - birthYear1} years old ${job1} !`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`)
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
