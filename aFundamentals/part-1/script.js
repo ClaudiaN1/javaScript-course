@@ -59,7 +59,7 @@ console.log(jonas);
 const jonasNew = `I'm ${lastName}, a ${year1 - birthYear1} years old ${job1} !`;
 console.log(jonasNew);
 
-console.log(`Just a regular string...`)
+console.log(`Just a regular string...`);
 
 console.log('String with \n\
 multiple \n\
